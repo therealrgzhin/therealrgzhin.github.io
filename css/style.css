@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Expletus+Sans');
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Righteous|Shojumaru');
 
 body {
-	background: url(../img/backbody.jpg) no-repeat center top;
-	background-size: 100%;
-	
-	font-family: 'Expletus Sans', cursive;
+	background: url(../img/back.jpg) no-repeat center top;
+	height: 90vh;
+	font-family: 'Audiowide', cursive;
 	font-weight: 300;
 	font-size: 40px;
 	color: #808794;
@@ -36,11 +35,11 @@ header .container {
 }
 
 a {
-	color: #808794;
+	color: #9CA7B0;
 }
 
 a:hover, a:focus {
-	color: #38415B;
+	color: #001234;
 	text-decoration: none;
 	outline: 0;
 }
