@@ -2,12 +2,11 @@
 
 body {
 	background: url(../img/back.jpg) no-repeat center top;
-	height: 90vh;
+	height: 100vh;
 	font-family: 'Audiowide', cursive;
 	font-weight: 300;
 	font-size: 40px;
-	color: #808794;
-
+	
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-backgraund-size: cover;
@@ -15,33 +14,72 @@ body {
 	-webkit-font-smooting: antialiased;
 	-webkit-overflow-scrolling: touch;
 
-	margin-top: 80px;
+	margin-top: 70px;
 }
 
 @media (min-width: 768px)
 header .container {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
-.img {
-	min-width: 350px;
-	width: auto;
-	height: auto;
+.container {
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img {
+	width: auto; /* Автоматическая ширина для пропорциональности высоты */
+  	max-width: 100%; /* Не больше ширины родительского элемента */
+  	max-height: 100vh; /* Не превышая высоту viewport */
+  	margin: auto; 
 }
 
 .centered {
 	text-align: center;
+
 }
 
 a {
-	color: #9CA7B0;
+	color: #D8E2DC;
 }
 
 a:hover, a:focus {
-	color: #001234;
 	text-decoration: none;
 	outline: 0;
+	color: #A2ADB8;
+  	text-shadow: 0 0 15px #A2ADB8;
+ 	transition: all 0.5s ease;
+}
+
+.fa {
+	color: #D8E2DC;
+}
+
+.fa-telegram:hover, .fa-telegram:focus {
+	text-decoration: none;
+	outline: 0;
+	color: #239AD6;
+  	text-shadow: 0 0 15px #239AD6;
+ 	transition: all 0.5s ease;
+}
+
+.fa-instagram:hover, .fa-instagram:focus {
+	text-decoration: none;
+	outline: 0;
+	color: #bc2a8d;
+  	text-shadow: 0 0 15px #bc2a8d;
+ 	transition: all 0.5s ease;
+}
+
+.fa-vk:hover, .fa-vk:focus {
+	text-decoration: none;
+	outline: 0;
+	color: #5B88BD;
+  	text-shadow: 0 0 15px #5B88BD;
+ 	transition: all 0.5s ease;
 }
 
 audio {
@@ -76,7 +114,7 @@ audio:hover, audio:focus, audio:active {
 	min-height: 700px;
 	width: 100%;
 
-	background-size: 100%;
+	height: auto;
 
 	-webkit-backgraund-size: cover;
 	-moz-backgraund-size: cover;
