@@ -14,8 +14,6 @@ body {
 	-webkit-font-smooting: antialiased;
 	-webkit-overflow-scrolling: touch;
 
-	margin-top: 90px;
-	margin-bottom: 90px;
 }
 
 @media (min-width: 768px)
