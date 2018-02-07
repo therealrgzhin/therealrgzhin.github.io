@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Audiowide|Righteous|Shojumaru');
 
 body {
-	background: url(../img/back.jpg) no-repeat center fixed;
+	background: url(../img/back1.jpg) no-repeat center fixed;
 	height: 100vh;
 	font-family: 'Audiowide', cursive;
 	font-weight: 300;
@@ -43,7 +43,7 @@ img {
 }
 
 a {
-	color: #D8E2DC;
+	color: #444;
 }
 
 a:hover, a:focus {
@@ -55,7 +55,7 @@ a:hover, a:focus {
 }
 
 .fa {
-	color: #D8E2DC;
+	color: #444;
 }
 
 .fa-telegram:hover, .fa-telegram:focus {
