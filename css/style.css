@@ -82,6 +82,23 @@ a:hover, a:focus {
  	transition: all 0.5s ease;
 }
 
+
+.fa-facebook:hover, .fa-facebook:focus {
+	text-decoration: none;
+	outline: 0;
+	color: #3b5999;
+  	text-shadow: 0 0 15px #3b5999;
+ 	transition: all 0.5s ease;
+}
+
+.fa-whatsapp:hover, .fa-whatsapp:focus {
+	text-decoration: none;
+	outline: 0;
+	color: #25D366;
+  	text-shadow: 0 0 15px #25D366;
+ 	transition: all 0.5s ease;
+}
+
 audio {
 	-webkit-transition:all 0.2s linear;
 	-moz-transition:all 0.2s linear;
