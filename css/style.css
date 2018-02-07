@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Audiowide|Righteous|Shojumaru');
 
 body {
-	background: url(../img/back.jpg) no-repeat center top;
+	background: url(../img/back.jpg) no-repeat center fixed;
 	height: 100vh;
 	font-family: 'Audiowide', cursive;
 	font-weight: 300;
